@@ -10,7 +10,5 @@ configure do
 end
 
 post '/callback' do
-  #cross_origin
-  #p body = request.body.read
   {status: "enter"}.to_json
 end
