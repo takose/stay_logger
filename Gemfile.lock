@@ -25,6 +25,9 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (12.0.0)
+    redis (3.3.3)
+    redis-objects (1.2.1)
+      redis (>= 3.0.2)
     sinatra (1.4.8)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -53,6 +56,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   rake
+  redis-objects
   sinatra
   sinatra-activerecord
   sinatra-contrib
